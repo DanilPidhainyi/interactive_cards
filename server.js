@@ -33,6 +33,12 @@ app.post('/add_word', (req, res) => {
     res.send('все ок')
 })
 
+app.post('/del_word', (req, res) => {
+    dict.del_word()
+    res.send('все ок')
+})
+
+
 app.post('/choose_dict', (req, res) => {
     dict = new vocab.Dictionary(req.body.name)
     res.send('все ок')
@@ -40,6 +46,10 @@ app.post('/choose_dict', (req, res) => {
 
 app.get('/get_word', (req, res) => {
     res.send(JSON.stringify(dict.next()))
+})
+
+app.get('/get_active_word', (req, res) => {
+    res.send(JSON.stringify(dict.get_active_word()))
 })
 
 app.listen(PORT, () => {

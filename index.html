@@ -14,6 +14,7 @@
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="pop-up_blocs/control_buttons.js"></script>
   <link rel="stylesheet" href="pop-up_blocs/list.css">
+  <script src="menu/button.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -35,7 +36,7 @@
         </button>
     </li>
     <li class="buttons-menu__link  buttons-menu__link--minus">
-      <button class="buttons-menu__link transparent" onclick="click_on_ico('#click_on_minus')">
+      <button class="buttons-menu__link transparent" onclick="click_on_ico_del_word('#click_on_minus')">
         <img src="menu/image/minus.png" width="45" height="45" alt="del word">
       </button>
     </li>
@@ -82,7 +83,7 @@
 <div id="click_on_minus" class="eclipse">
   <div class="pop-up_bloc pop-up_bloc--minus">
     <div class="form_input form_input--minus">
-      <h3>Видалити слово ... ?</h3>
+      <h3 id="form_input__h3">Видалити слово ... ?</h3>
       <div class="gray_button">
         <button class="gray_button__click" onclick="cancel('#click_on_minus')">Скасувати</button>
         <button class="gray_button__click" onclick="del_word()">Видалити</button>

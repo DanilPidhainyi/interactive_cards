@@ -5,6 +5,7 @@ class Dictionary {
     dict; // {eu: uk}
     path = './user_data'
     next_dict_entries = [];
+    active_word;
 
     constructor(name, dict, path) {
         this.name = name
@@ -18,6 +19,12 @@ class Dictionary {
             this.read_file()
         }
 
+    }
+    get_active_word() {
+        return {
+            en: this.active_word[0],
+            uk: this.active_word[1]
+        }
     }
 
     get name() {
@@ -58,6 +65,11 @@ class Dictionary {
             })
     }
 
+    del_word () {
+        delete this.dict[this.active_word[0]]
+        this.write_file()
+    }
+
     read_file () {
         fs.readFile(`${this.path}/${this.name}.json`,
             (err, data) => {
@@ -89,10 +101,10 @@ class Dictionary {
                 this.next_dict_entries = Object.entries(this.dict)
             }
         }
-        const entries = this.next_dict_entries.pop()
+        this.active_word = this.next_dict_entries.pop()
         return {
-            en: entries[0],
-            uk: entries[1]
+            en: this.active_word[0],
+            uk: this.active_word[1]
         }
     }
 

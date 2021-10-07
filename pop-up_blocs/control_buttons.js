@@ -2,27 +2,6 @@ cancel = (id) => {
     $(id).toggle()
 }
 
-click_on_ico = (id) => {
-    $(id).toggle()
-}
-
-click_on_ico_choose_dict = (id) => {
-    // получить список
-    $.get(
-        '/list_dict',
-        data => {
-            $('#list_dict').html(
-                '<ul>' +
-                JSON.parse(data)
-                    .list_dict
-                    .map(item => `<li>${item}</li>`)
-                    .join('')
-                + '</ul>')
-        }
-    )
-    $(id).toggle()
-}
-
 add_word = () => {
     const uk = $('#new_word_uk_text').val()
     const eu = $('#new_word_eu_text').val()
@@ -42,12 +21,21 @@ add_word = () => {
 
 del_word = () => {
     $('#click_on_minus').toggle()
-    // $.post(
-    //     '/add_word',
-    //     param={text: "eeess"},
-    //     data => {
-    //         alert(data)
-    // })
+    // Запрос для видалення слова
+    fetch(
+        '/del_word',
+        {
+            method: 'POST'
+        }).then(_ => _)
+    // Запрос для обновочки
+    $.get(
+        '/get_word',
+        data => {
+            $('#front').html('<span>' + JSON.parse(data).en + '</span>')
+            $('#back').html('<span>' + JSON.parse(data).uk + '</span>')
+        }
+    )
+
 }
 
 add_dictionary = () => {
@@ -66,7 +54,7 @@ add_dictionary = () => {
                     name: name,
                     dict: dict
                 })
-            }).then(_ => alert(_))
+            }).then(_ => _)
     }
 }
 
