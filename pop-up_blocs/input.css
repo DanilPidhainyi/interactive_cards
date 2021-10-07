@@ -1,0 +1,73 @@
+.form_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80%;
+    font-size: 18px;
+    color: #a5a5a5;
+}
+
+.form_input__input {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    color: #574454;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #a5a5a5;
+    position: relative;
+    background: transparent;
+}
+
+.form_input--new_word {
+    margin-top: 40px;
+}
+
+.form_input--minus {
+    margin-top: 20px;
+}
+
+.animated_word {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.animated_word__text {
+    position: absolute;
+    line-height: 0;
+}
+
+.animated_word__text--name_dictionary {
+    margin-top: 20px;
+    color: #a5a5a5;
+}
+
+.text_name_dictionary_animated {
+    transition: 1s;
+    transform: translateY(-30px);
+    font-size: 16px;
+    color: red;
+}
+/*todo */
+.text_new_word_animated {
+    transition: 1s;
+    transform: translateY(-30px);
+    font-size: 16px;
+    color: red;
+}
+
+.textarea_add_dic {
+    width: 340px;
+    height: 270px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #fafafa;
+    resize: none;
+}e
