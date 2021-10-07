@@ -1,0 +1,63 @@
+.menu {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-menu{
+    margin-top: 600px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.buttons-menu__link {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons-menu__link--plus:hover {
+    border-color: aqua;
+    box-shadow: 0 0 25px aqua;
+    color: aqua;
+}
+
+.buttons-menu__link--minus:hover {
+    border-color: #f78f8f;
+    box-shadow: 0 0 25px #f78f8f;
+    color: #f78f8f
+}
+
+.buttons-menu__link--add-dictionary:hover {
+    border-color: #ffd766;
+    box-shadow: 0 0 25px #ffd766;
+    color: #ffd766
+}
+
+.buttons-menu__link--choose:hover {
+    border-color: #fc5d3d;
+    box-shadow: 0 0 25px #fc5d3d;
+    color: #fc5d3d
+}
+
+.buttons-menu__link--settings:hover {
+    border-color: #ffd7e5;
+    box-shadow: 0 0 25px #ffd7e5;
+    color: #ffd7e5
+}
+
+.transparent {
+    border: 0;
+    padding: 0;
+    background-color: transparent
+}

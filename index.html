@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="uk" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8"/> 
+  <title> interactive cards </title>
+  <link rel="icon" type="image" href="menu/image/title_cat.jpg" />
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="card/card.css">
+  <link rel="stylesheet" href="menu/menu.css">
+  <link rel="stylesheet" href="menu/button.css">
+  <link rel="stylesheet" href="pop-up_blocs/gray_buttons.css">
+  <link rel="stylesheet" href="pop-up_blocs/pop-up_bloc.css">
+  <link rel="stylesheet" href="pop-up_blocs/input.css">
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="pop-up_blocs/control_buttons.js"></script>
+  <link rel="stylesheet" href="pop-up_blocs/list.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="card">
+      <div class="front" id="front">
+        <span>Front</span>
+      </div>
+      <div class="back" id="back">
+        <span>Back</span>
+      </div>
+    </div>
+</div>
+
+<div class="menu">
+  <ul class="buttons-menu">
+    <li class="buttons-menu__link buttons-menu__link--plus">
+        <button class="buttons-menu__link transparent" onclick="click_on_ico('#click_on_plus')">
+          <img src="menu/image/plus.png" width="45" height="45" alt="add word">
+        </button>
+    </li>
+    <li class="buttons-menu__link  buttons-menu__link--minus">
+      <button class="buttons-menu__link transparent" onclick="click_on_ico('#click_on_minus')">
+        <img src="menu/image/minus.png" width="45" height="45" alt="del word">
+      </button>
+    </li>
+    <li class="buttons-menu__link buttons-menu__link--add-dictionary">
+      <button class="buttons-menu__link transparent" onclick="click_on_ico('#click_on_add_dictionary')">
+        <img src="menu/image/add_dictionary.png" width="45" height="45" alt="add dictionary">
+      </button>
+    </li>
+    <li class="buttons-menu__link buttons-menu__link--choose">
+      <button class="buttons-menu__link transparent" onclick="click_on_ico_choose_dict('#click_on_choose')">
+        <img src="menu/image/choose_a_dictionary.png" width="45" height="45" alt="choose a dictionary">
+      </button>
+    </li>
+    <li class="buttons-menu__link buttons-menu__link--settings">
+      <button class="buttons-menu__link transparent" onclick="click_on_ico('#click_on_settings')">
+        <img src="menu/image/settings.png" width="45" height="45" alt="settings">
+      </button>
+    </li>
+  </ul>
+</div>
+
+<div id="click_on_plus" class="eclipse">
+  <div class="pop-up_bloc">
+    <form class="form_input form_input--new_word" action="#">
+
+      <div class="animated_word">
+        <h3 id="new_word" class="animated_word__text">Нове сово</h3>
+        <label>
+          <input id="new_word_eu_text" class="form_input__input" type="text" value=""/>
+        </label>
+      </div>
+
+      <label>
+        <input id="new_word_uk_text" class="form_input__input" type="text" name="text_uk_plus" value=""/>
+      </label>
+      <div class="gray_button">
+        <button class="gray_button__click" onclick="cancel('#click_on_plus')"> Скасувати </button>
+        <button class="gray_button__click" type="button" onclick="add_word()"> Додати </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div id="click_on_minus" class="eclipse">
+  <div class="pop-up_bloc pop-up_bloc--minus">
+    <div class="form_input form_input--minus">
+      <h3>Видалити слово ... ?</h3>
+      <div class="gray_button">
+        <button class="gray_button__click" onclick="cancel('#click_on_minus')">Скасувати</button>
+        <button class="gray_button__click" onclick="del_word()">Видалити</button>
+      </div>
+    </div>
+    </div>
+</div>
+
+<div id="click_on_add_dictionary" class="eclipse">
+  <div class="pop-up_bloc pop-up_bloc--add_dictionary">
+
+    <form class="form_input" method="get" action="#">
+      <div class="animated_word">
+        <h3 id="name_dictionary" class="animated_word__text animated_word__text--name_dictionary">
+          Назва словника:</h3>
+        <label>
+          <input id="name_dictionary_input" class="form_input__input" type="text" name="text_en_plus" value=""/>
+        </label>
+      </div>
+      <label>
+        <textarea name="content"
+                  class="textarea_add_dic"
+                  placeholder="Apple - яблукоCloud - хмараTo smile - посміхатись">
+        </textarea>
+      </label>
+    </form>
+
+    <div class="gray_button">
+      <button class="gray_button__click" onclick="cancel('#click_on_add_dictionary')">Скасувати</button>
+      <button class="gray_button__click" onclick="add_dictionary()">Додати</button>
+    </div>
+  </div>
+</div>
+
+<div id="click_on_choose" class="eclipse">
+  <div class="pop-up_bloc pop-up_bloc--list_dictionary">
+    <h3>Вибери словник</h3>
+    <div id="list_dict"></div>
+    <div class="gray_button">
+      <button class="gray_button__click" onclick="cancel('#click_on_choose')">Скасувати</button>
+      <button class="gray_button__click" onclick="choose()">Змінити</button>
+    </div>
+  </div>
+</div>
+
+<div id="click_on_settings" class="eclipse">
+  <div class="pop-up_bloc">
+    <div class="gray_button">
+      <button class="gray_button__click" onclick="cancel('#click_on_settings')">Скасувати</button>
+      <button class="gray_button__click" onclick="add_dictionary()">Додати</button>
+    </div>
+  </div>
+</div>
+<script src="pop-up_blocs/animations.js"></script>
+<script src="card/content.js"></script>
+</body>
+</html>
