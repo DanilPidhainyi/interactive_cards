@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: center;
     min-height: 80%;
-    font-size: 18px;
-    color: #a5a5a5;
 }
 
 .form_input__input {
@@ -43,6 +41,7 @@
 .animated_word__text--name_dictionary {
     margin-top: 20px;
     color: #a5a5a5;
+
 }
 
 .text_name_dictionary_animated {
@@ -70,4 +69,4 @@
     outline: none;
     background-color: #fafafa;
     resize: none;
-}e
+}

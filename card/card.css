@@ -15,6 +15,7 @@
     height: 300px;
     position: relative;
     perspective: 1000px;
+    font-size: 3rem;
 }
 .front, .back {
     position: absolute;

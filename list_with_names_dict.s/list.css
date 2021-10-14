@@ -1,0 +1,78 @@
+#list_dict {
+
+}
+.gray_button--list_dict {
+    margin-bottom: 12px;
+}
+.list_dict__ui {
+
+}
+
+.list_dict__li {
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+
+.elem_list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.elem_list__delBut {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    color: #e74c3c;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 0.6em;
+}
+
+.elem_list__delBut:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.elem_list__delBut {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.elem_list__delBut:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.elem_list__elemBut {
+    width: 170px;
+    background: #fafafa;
+    border-color: #338033;
+    border-radius: 0.4em;
+    color: #338033;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.05rem;
+
+}
+.elem_list__elemBut:hover {
+    background: #338033;
+    transition-property: background-color;
+    transition-duration: 0.6s;
+    color: #fafafa;
+}
+

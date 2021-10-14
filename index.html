@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="pop-up_blocs/input.css">
   <script src="node_modules/jquery/dist/jquery.js"></script>
   <script src="pop-up_blocs/control_buttons.js"></script>
-  <link rel="stylesheet" href="pop-up_blocs/list.css">
+  <link rel="stylesheet" href="list_with_names_dict.s/list.css">
   <script src="menu/button.js"></script>
+  <script src="list_with_names_dict.s/get_list.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -121,8 +122,8 @@
 <div id="click_on_choose" class="eclipse">
   <div class="pop-up_bloc pop-up_bloc--list_dictionary">
     <h3>Вибери словник</h3>
-    <div id="list_dict"></div>
-    <div class="gray_button">
+    <div id="list_dict" class="list_dict"></div>
+    <div class="gray_button gray_button--list_dict">
       <button class="gray_button__click" onclick="cancel('#click_on_choose')">Скасувати</button>
       <button class="gray_button__click" onclick="choose()">Змінити</button>
     </div>

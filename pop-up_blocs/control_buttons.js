@@ -66,3 +66,4 @@ choose = () => {
 settings = () => {
     $('#click_on_settings').toggle()
 }
+
