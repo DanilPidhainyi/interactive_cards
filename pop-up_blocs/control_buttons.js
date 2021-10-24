@@ -42,6 +42,15 @@ del_word = () => {
 
 add_dictionary = () => {
     $('#click_on_add_dictionary').toggle()
+
+    $.get(
+        '/list_dict',
+        data => {
+            if (JSON.parse(data).list_dict.length >= 10) {
+                alert("Увага!! \n Перевищено ліміт 10 словників.")
+            }
+        }
+    )
     const name = $('#name_dictionary_input').val()
     const dict = {}
     if (name !== '') {
