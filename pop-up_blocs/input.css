@@ -50,7 +50,7 @@
     font-size: 16px;
     color: red;
 }
-/*todo */
+
 .text_new_word_animated {
     transition: 1s;
     transform: translateY(-30px);

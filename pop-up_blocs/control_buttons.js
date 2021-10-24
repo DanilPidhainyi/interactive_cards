@@ -6,6 +6,7 @@ add_word = () => {
     const uk = $('#new_word_uk_text').val()
     const eu = $('#new_word_eu_text').val()
     if (eu !== '') {
+
         fetch('/add_word', {
             method: 'POST',
             headers: {
@@ -16,6 +17,7 @@ add_word = () => {
             })
         }).then(_ => _)
     }
+
     $('#click_on_plus').toggle()
 }
 

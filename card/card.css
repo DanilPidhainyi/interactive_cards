@@ -42,6 +42,6 @@
 .card:active .front {transform: rotateY(180deg);}
 .card:active .back {transform: rotateY(360deg);}
 
-.front__text, .back__text {
+.card__text {
     text-align: center
 }

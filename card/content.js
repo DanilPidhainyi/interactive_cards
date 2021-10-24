@@ -2,17 +2,18 @@ const upgrade_word = () => {
     $.get(
         '/get_word',
         data => {
-            add_s = str => {
-                if (str.length > 100)
-                    return '<small>'+ str + '</small>'
-                else
-                    return  str
+            const EN = JSON.parse(data).en
+            const UK = JSON.parse(data).uk
+            add_t = str => {
+                if (str.length > 40)
+                    str = '<small>'+ str + '</small>'
+                return  '<span class="card__text">' + str + '</span>'
             }
 
-            $('#front').html(add_s(JSON.parse(data).en))
-            $('#back').html(add_s(JSON.parse(data).uk))
+            $('#front').html(add_t(EN))
+            $('#back').html(add_t(UK))
         }
-    )
+        )
 }
 upgrade_word()
 

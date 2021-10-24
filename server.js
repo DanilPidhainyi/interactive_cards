@@ -38,7 +38,6 @@ app.post('/del_word', (req, res) => {
     res.send('все ок')
 })
 
-
 app.post('/choose_dict', (req, res) => {
     dict = new vocab.Dictionary(req.body.name)
     res.send('все ок')
