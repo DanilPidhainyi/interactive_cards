@@ -29,6 +29,8 @@
     transition: 1s;
     backface-visibility: hidden;
     border-radius: 10px;
+    padding: 12px;
+
 }
 .front {
     background-color: #fff;
@@ -39,3 +41,7 @@
 }
 .card:active .front {transform: rotateY(180deg);}
 .card:active .back {transform: rotateY(360deg);}
+
+.front__text, .back__text {
+    text-align: center
+}
