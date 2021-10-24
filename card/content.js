@@ -2,8 +2,15 @@ const upgrade_word = () => {
     $.get(
         '/get_word',
         data => {
-            $('#front').html('<samp class="front__text">' + JSON.parse(data).en + '</samp>')
-            $('#back').html('<span class="back__text">' + JSON.parse(data).uk + '</span>')
+            add_s = str => {
+                if (str.length > 100)
+                    return '<small>'+ str + '</small>'
+                else
+                    return  str
+            }
+
+            $('#front').html(add_s(JSON.parse(data).en))
+            $('#back').html(add_s(JSON.parse(data).uk))
         }
     )
 }
