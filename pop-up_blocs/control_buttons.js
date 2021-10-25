@@ -53,6 +53,14 @@ add_dictionary = () => {
     )
     const name = $('#name_dictionary_input').val()
     const dict = {}
+    $(".textarea_add_dic")[0].value.split("\n")
+        .filter(item => item.length > 0)
+        .map(item => item.replace(/\s+/g, ' ').trim())
+        .filter(item => item.length > 0)
+        .map(item => item.split("-"))
+        .filter(item => item.length === 2)
+        .map(item => dict[item[0]] = item[1])
+
     if (name !== '') {
         fetch(
             '/add_dict',
