@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="add choose dict" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="DanilPidhainyi &lt;61890854+danilpidhainyi@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zBh6MNqVwjw64ckMO3PFp7iNJt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\interactive_cards\server\user_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\interactive_cards\list" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="content.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/card/content.js" working-dir="$PROJECT_DIR$/card">
+      <method v="2" />
+    </configuration>
+    <configuration name="get_list.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/list_with_names_dict.s/get_list.js" working-dir="$PROJECT_DIR$/list_with_names_dict.s">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="Node.js.content.js" />
+      <item itemvalue="Node.js.get_list.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.get_list.js" />
+        <item itemvalue="Node.js.content.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="" />
+      <created>1633627213867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633627213867</updated>
+      <workItem from="1633627216848" duration="5500000" />
+      <workItem from="1633675532856" duration="5572000" />
+      <workItem from="1633693768484" duration="4560000" />
+      <workItem from="1634220697119" duration="5277000" />
+      <workItem from="1634379026254" duration="208000" />
+      <workItem from="1634379262483" duration="812000" />
+      <workItem from="1634383271492" duration="24000" />
+      <workItem from="1634589088938" duration="1560000" />
+      <workItem from="1635072476352" duration="9760000" />
+      <workItem from="1635143837915" duration="5375000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1633628370851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633628370851</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add user manual">
+      <created>1635074515744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635074515744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add user manual">
+      <created>1635074836146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635074836146</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add smalled cards text">
+      <created>1635075935891</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635075935891</updated>
+    </task>
+    <task id="LOCAL-00005" summary="an example of creating a dictionary">
+      <created>1635080822963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635080822963</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add dictionary limited">
+      <created>1635082136574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635082136574</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add dictionary added">
+      <created>1635144923392</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635144923392</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add choose dict">
+      <created>1635148904842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635148904842</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="add user manual" />
+    <MESSAGE value="add smalled cards text" />
+    <MESSAGE value="an example of creating a dictionary" />
+    <MESSAGE value="add dictionary limited" />
+    <MESSAGE value="add dictionary added" />
+    <MESSAGE value="add choose dict" />
+    <option name="LAST_COMMIT_MESSAGE" value="add choose dict" />
+  </component>
+</project>
