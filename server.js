@@ -28,6 +28,11 @@ app.post('/add_dict', (req, res) => {
     res.send('все ок')
 })
 
+app.post('/del_dict', (req, res) => {
+    new vocab.Dictionary(req.body.dict, false, PATH).delete()
+    res.send('все ок')
+})
+
 app.post('/add_word', (req, res) => {
     dict.add_word(req.body)
     res.send('все ок')

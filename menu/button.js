@@ -7,7 +7,7 @@ click_on_ico_del_word = (id) => {
     $.get(
         '/get_active_word',
         data => {
-            $('#form_input__h3').html('Видалити слово ' + JSON.parse(data).en + '?')
+            $('#form_input__h3').html('Видалити: ' + JSON.parse(data).en + '?')
         }
     )
     $(id).toggle()

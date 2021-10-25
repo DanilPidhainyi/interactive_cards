@@ -28,7 +28,7 @@ del_word = () => {
         '/del_word',
         {
             method: 'POST'
-        }).then(_ => _)
+        }).then(_ =>
     // Запрос для обновочки
     $.get(
         '/get_word',
@@ -36,7 +36,7 @@ del_word = () => {
             $('#front').html('<span>' + JSON.parse(data).en + '</span>')
             $('#back').html('<span>' + JSON.parse(data).uk + '</span>')
         }
-    )
+    ))
 
 }
 
@@ -78,7 +78,6 @@ add_dictionary = () => {
 }
 
 choose = () => {
-
     $('#click_on_choose').toggle()
 }
 
