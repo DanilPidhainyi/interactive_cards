@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="add choose dict" />
+    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="dictionary updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/user_data/Animals.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/Animals.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/user_data/Default.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/Default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/user_data/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/food.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +54,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\All others\WebStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -102,7 +109,7 @@
       <workItem from="1634383271492" duration="24000" />
       <workItem from="1634589088938" duration="1560000" />
       <workItem from="1635072476352" duration="9760000" />
-      <workItem from="1635143837915" duration="5375000" />
+      <workItem from="1635143837915" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633628370851</created>
@@ -160,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635148904842</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dictionary updates">
+      <created>1635149484179</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635149484179</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +200,7 @@
     <MESSAGE value="add dictionary limited" />
     <MESSAGE value="add dictionary added" />
     <MESSAGE value="add choose dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="add choose dict" />
+    <MESSAGE value="dictionary updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="dictionary updates" />
   </component>
 </project>

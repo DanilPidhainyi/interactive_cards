@@ -44,7 +44,7 @@ app.post('/del_word', (req, res) => {
 })
 
 app.post('/choose_dict', (req, res) => {
-    dict = new vocab.Dictionary(req.body.name)
+    dict = new vocab.Dictionary(req.body.name, false, PATH)
     res.send('все ок')
 })
 
