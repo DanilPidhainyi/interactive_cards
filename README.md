@@ -15,11 +15,11 @@
 <img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_3.gif" width=50% height=50%/>
 
 ## Для запуску програми потрібно:
-<h6> Запустити `server.js` </h6>
+* Запустити server.js
 
 ```bash
 node server.js
 ```
-<h6> [Перейти за посиланням](http://localhost:3000/)</h6>
+*[Перейти за посиланням](http://localhost:3000/)
 
 
