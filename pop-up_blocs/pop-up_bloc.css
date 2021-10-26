@@ -44,3 +44,17 @@
     padding-top: 12px;
     /*padding-bottom: 25px;*/
 }
+
+.pop-up_bloc--settings {
+    padding-top: 35px;
+
+}
+
+.gray_button--settings {
+    margin-top: 150px;
+}
+
+.h--settings {
+    position: absolute;
+
+}

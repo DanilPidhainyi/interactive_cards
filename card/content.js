@@ -10,8 +10,13 @@ const upgrade_word = () => {
                 return  '<span class="card__text">' + str + '</span>'
             }
 
-            $('#front').html(add_t(EN))
-            $('#back').html(add_t(UK))
+            if (document.getElementById("checkbox").checked) {
+                $('#front').html(add_t(UK))
+                $('#back').html(add_t(EN))
+            } else {
+                $('#front').html(add_t(EN))
+                $('#back').html(add_t(UK))
+            }
         }
         )
 }

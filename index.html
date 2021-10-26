@@ -17,6 +17,7 @@
   <script src="menu/button.js"></script>
   <script src="list_with_names_dict.s/get_list.js"></script>
   <script src="list_with_names_dict.s/del_and_change.js"></script>
+  <link rel="stylesheet" href="pop-up_blocs/checkdox.css">
 </head>
 <body>
 <div class="wrap">
@@ -134,10 +135,14 @@
 </div>
 
 <div id="click_on_settings" class="eclipse">
-  <div class="pop-up_bloc">
-    <div class="gray_button">
-      <button class="gray_button__click" onclick="cancel('#click_on_settings')">Скасувати</button>
-      <button class="gray_button__click" onclick="add_dictionary()">Додати</button>
+  <div class="pop-up_bloc pop-up_bloc--settings">
+    <h5 class="h--settings"> Реверс </h5>
+    <div class="checkbox-bloc">
+      <input class="checkbox" id="checkbox" type="checkbox">
+      <label class="checkbox__label" for="checkbox"></label>
+    </div>
+    <div class="gray_button gray_button--settings">
+      <button class="gray_button__click" onclick="cancel('#click_on_settings')">Вийти</button>
     </div>
   </div>
 </div>

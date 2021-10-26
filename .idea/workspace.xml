@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="dictionary updates">
+    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="dictionary updates 2">
+      <change afterPath="$PROJECT_DIR$/pop-up_blocs/checkdox.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/user_data/Animals.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/Animals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/user_data/Default.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/Default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/user_data/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/food.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/card/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/card/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-up_blocs/pop-up_bloc.css" beforeDir="false" afterPath="$PROJECT_DIR$/pop-up_blocs/pop-up_bloc.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -109,7 +109,8 @@
       <workItem from="1634383271492" duration="24000" />
       <workItem from="1634589088938" duration="1560000" />
       <workItem from="1635072476352" duration="9760000" />
-      <workItem from="1635143837915" duration="6120000" />
+      <workItem from="1635143837915" duration="8991000" />
+      <workItem from="1635233958055" duration="3510000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633628370851</created>
@@ -174,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635149484179</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dictionary updates 2">
+      <created>1635150210241</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635150210241</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +209,7 @@
     <MESSAGE value="add dictionary added" />
     <MESSAGE value="add choose dict" />
     <MESSAGE value="dictionary updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="dictionary updates" />
+    <MESSAGE value="dictionary updates 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dictionary updates 2" />
   </component>
 </project>
