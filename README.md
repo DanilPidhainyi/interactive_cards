@@ -4,7 +4,7 @@
 
 ***Довгим нитиском ви перевиртаєте карту, а коротким гортаєте до наступної***
 
-<img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_1.gif" width=30% height=30%/>
+<img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_1.gif" width=50% height=50%/>
 
 ***Використовувати додавання по слову з авто перекладом :)***
 
