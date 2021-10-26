@@ -14,8 +14,9 @@
 
 <img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_3.gif" width=50% height=50%/>
 
-## Для запуску програми потрібно:</h4>
-<h6> Запустити 'server.js' </h6>
+## Для запуску програми потрібно:
+<h6> Запустити `server.js` </h6>
+
 ```bash
 node server.js
 ```
