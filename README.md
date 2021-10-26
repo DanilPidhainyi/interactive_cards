@@ -20,6 +20,6 @@
 ```bash
 node server.js
 ```
-*[Перейти за посиланням](http://localhost:3000/)
+* [Перейти за посиланням](http://localhost:3000/)
 
 
