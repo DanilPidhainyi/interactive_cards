@@ -8,11 +8,11 @@
 
 ***Використовувати додавання по слову з авто перекладом :)***
 
-![Alt Text](https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_2.gif)
+<img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_2.gif" width=50% height=50%/>
 
 ***При створенні нового словника, можна задати слова переліком***
 
-![Alt Text](https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_3.gif)
+<img src="https://github.com/DanilPidhainyi/interactive_cards/blob/main/showing%20the%20work%20of%20the%20program/gif_3.gif" width=50% height=50%/>
 
 ## Для запуску програми потрібно:</h4>
 <h6> Запустити 'server.js' </h6>
