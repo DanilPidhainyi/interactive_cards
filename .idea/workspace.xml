@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="the settings menu has been updated">
+    <list default="true" id="dd29c7cf-fc89-4658-8605-a28e3a41e490" name="Default Changelist" comment="edits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/Dictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/Dictionary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pop-up_blocs/control_buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/pop-up_blocs/control_buttons.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/user_data/Default.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/user_data/Default.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,7 @@
       <workItem from="1634589088938" duration="1560000" />
       <workItem from="1635072476352" duration="9760000" />
       <workItem from="1635143837915" duration="8991000" />
-      <workItem from="1635233958055" duration="5689000" />
+      <workItem from="1635233958055" duration="7448000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1633628370851</created>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635238495760</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edits">
+      <created>1635242146700</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635242146700</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +223,7 @@
     <MESSAGE value="dictionary updates" />
     <MESSAGE value="dictionary updates 2" />
     <MESSAGE value="the settings menu has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="the settings menu has been updated" />
+    <MESSAGE value="edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
 </project>

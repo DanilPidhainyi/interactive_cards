@@ -57,7 +57,7 @@ add_dictionary = () => {
         .filter(item => item.length > 0)
         .map(item => item.replace(/\s+/g, ' ').trim())
         .filter(item => item.length > 0)
-        .map(item => item.split("-"))
+        .map(item => item.split(/[-–]/))
         .filter(item => item.length === 2)
         .map(item => dict[item[0]] = item[1])
 
