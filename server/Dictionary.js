@@ -89,10 +89,10 @@ class Dictionary {
         }
     }
 
-    next () {
+    next_w () {
         /** return obj {en: uk:} */
         if (this.next_dict_entries.length === 0) {
-            if (this.dict.length === 0) {
+            if (Object.keys(this.dict).length === 0) {
                 return {
                     en: 'The dictionary is empty',
                     uk: 'Словник пустий'

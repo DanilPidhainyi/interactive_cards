@@ -49,7 +49,7 @@ app.post('/choose_dict', (req, res) => {
 })
 
 app.get('/get_word', (req, res) => {
-    res.send(JSON.stringify(dict.next()))
+    res.send(JSON.stringify(dict.next_w()))
 })
 
 app.get('/get_active_word', (req, res) => {
